@@ -51,6 +51,8 @@ model = LinearRegression()
 model.fit(x_train, y_train)
 y_pred = model.predict(x_test)
 print(r2_score(y_test, y_pred))
+mse_err = mean_squared_error(y_test, y_pred)
+print(mse_err)
 
 """***Pearson Correlation***"""
 
@@ -75,6 +77,8 @@ model = LinearRegression()
 model.fit(x_train, y_train)
 y_pred = model.predict(x_test)
 print(r2_score(y_test, y_pred))
+mse_err = mean_squared_error(y_test, y_pred)
+print(mse_err)
 
 """b. Analyses relationship b/w the features themselves
 
@@ -102,6 +106,8 @@ model = LinearRegression()
 model.fit(x_train, y_train)
 y_pred = model.predict(x_test)
 print(r2_score(y_test, y_pred))
+mse_err = mean_squared_error(y_test, y_pred)
+print(mse_err)
 
 """***Recurive Feature Elimination (RFE)***
 Given an estimator that assigns weights/coeffecients to the features (eg: linear model),
@@ -129,6 +135,8 @@ model = LinearRegression()
 model.fit(x_train, y_train)
 y_pred = model.predict(x_test)
 print(r2_score(y_test, y_pred))
+mse_err = mean_squared_error(y_test, y_pred)
+print(mse_err)
 
 """**Sequential Feature Selection**
 Doesn't require the underlying model to provide co-efficient weights, such as SelectFromModel, and RFE
@@ -161,6 +169,8 @@ model = LinearRegression()
 model.fit(x_train, y_train)
 y_pred = model.predict(x_test)
 print(r2_score(y_test, y_pred))
+mse_err = mean_squared_error(y_test, y_pred)
+print(mse_err)
 
 """**Unsupervised**"""
 
@@ -181,4 +191,6 @@ model = LinearRegression()
 model.fit(x_train, y_train)
 y_pred = model.predict(x_test)
 print(r2_score(y_test, y_pred))
+mse_err = mean_squared_error(y_test, y_pred)
+print(mse_err)
 
