@@ -42,6 +42,7 @@ It can be downloaded/loaded using the sklearn.datasets.fetch_california_housing 
 The regression model achieved the following performance metrics:
 
 - R2 Score: 0.45 -049
+- Mean Squared Error (MSE): 50-61
   
 
 These results indicate that the model provides a reasonably good fit to the data, with an R2 score of 0.78 indicating that 78% of the variance in house prices is explained by the model.
